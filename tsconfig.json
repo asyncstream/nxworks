@@ -15,7 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nxworks/shared/filter-panel": ["libs/shared/filter-panel/src/index.ts"],
+      "@nxworks/ui": ["libs/ui/src/index.ts"],
+      "@nxworks/ui/filter-panel": ["libs/ui/filter-panel/src/index.ts"],
+      "@nxworks/shared": ["libs/shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -25,6 +25,12 @@
     "cloud-messenger-e2e": {
       "tags": [],
       "implicitDependencies": ["cloud-messenger"]
+    },
+    "ui": {
+      "tags": []
+    },
+    "shared": {
+      "tags": []
     }
   }
 }
